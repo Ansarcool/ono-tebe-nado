@@ -1,1 +1,22 @@
-/* место для вашего кода */
+.header {
+    display: flex;
+    margin: 92px 24px 96px;
+    height: 105px;
+    justify-content: space-between;
+}
+.header__logo-image {
+    width: 100%;
+    height: 100%;
+}
+.header__links-list {
+    display: flex;
+    gap: 30px;
+    align-items: f;
+}
+.header__adress {
+    display: flex;
+    flex-direction: column;
+}
+.header__links-list-item_no-bullet {
+    list-style: none;
+}
