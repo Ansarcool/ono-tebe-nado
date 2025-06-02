@@ -14,7 +14,7 @@ body {
 .header__links-list {
     display: flex;
     gap: 30px;
-    align-items: f;
+    align-items: ;
 }
 .header__adress {
     display: flex;
@@ -23,48 +23,55 @@ body {
 .header__links-list-item_no-bullet {
     list-style: none;
 }
-.main {
-    position: relative;
+.hero {
+    background-image: url(../images/cover.jpg);
+    background-size: cover;
     width: 1100px;
-    height: 607px;
-    display:flex
+    height: 700px;
 
 }
 .cover_title {
-    position: absolute;
-    z-index: 1;
     letter-spacing: 10px;
     word-spacing: 100px;
     color: white;
-    font-weight: bold;
-}
-.overlay {
-    width: 1100px;
+    width: 637px;
+    height: 28px;
 }
 .cover-description-text {
-    position: absolute;
+    margin: 0;
+    padding: 0;
     color: white;
     font-weight: normal;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    word-spacing: 10px;
+    font-size: 25px;
+    position: relative;
+    top: 565px;
 }
 .bet-button {
-    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 256px;
+    height: 51px;
+    position: relative;
+    left: 175px;
+    top: 565px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    font-weight: bold;
+    font-size: 20px;
 }
 .lot-1 , .lot-2 , .lot-3 {
-    width: 334px;
-    height: 563px;
-    position: absolute;
+
 }
 .lots-card {
-    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .lot-1 {
-    z-index: 1;
-    left: 24px;
-
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    width: 334px;
+    height: 563px;
 }
