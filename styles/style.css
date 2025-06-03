@@ -14,7 +14,6 @@ body {
 .header__links-list {
     display: flex;
     gap: 30px;
-    align-items: ;
 }
 .header__adress {
     display: flex;
@@ -118,7 +117,6 @@ body {
 .about-title {
     display: flex;
     flex-direction: column;
-    align-items: ;
     gap: 30px;
 }
 .about-all-text {
