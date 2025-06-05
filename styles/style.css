@@ -71,10 +71,7 @@ body {
     width: 1052px;
     height: 500px;
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 30px;
+    flex-direction: column;
 }
 .lot-1 {
     padding: 0;
@@ -139,7 +136,7 @@ body {
     flex-direction: column;
 }
 p {
-    text-decoration: underline;
+
 }
 .footer {
     width: 1000px;
@@ -150,4 +147,16 @@ p {
 .footer__adress {
     display: flex;
     flex-direction: column;
+}
+.lots {
+    display: flex;
+    flex-direction: row;
+}
+.text-LOTS {
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+.text-more {
+    margin-top: 20px;
+    text-decoration: underline;
 }
