@@ -99,7 +99,7 @@ body {
 }
 .about {
     width: 1052px;
-    height: 700px;
+    height: 595px;
     display: flex;
     align-items: center;
 }
@@ -115,8 +115,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    text-align: flex-end;
-
 }
 .about-all-text {
     display: flex;
@@ -169,6 +167,5 @@ p {
 }
 .ABOUT_p {
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
 }
