@@ -27,33 +27,22 @@ body {
     background-size: cover;
     width: 1100px;
     height: 700px;
+    display: flex;
+    flex-direction: column;
+}
 
-}
-.cover_title {
-    letter-spacing: 10px;
-    word-spacing: 100px;
-    color: white;
-    width: 637px;
-    height: 28px;
-}
 .cover-description-text {
-    margin: 0;
-    padding: 0;
     color: white;
     font-weight: normal;
     word-spacing: 10px;
     font-size: 25px;
-    position: relative;
-    top: 565px;
+    display: flex;
 }
 .bet-button {
     margin: 0;
     padding: 0;
     width: 256px;
     height: 51px;
-    position: relative;
-    left: 175px;
-    top: 565px;
     color: white;
     background-color: transparent;
     border: 1px solid white;
@@ -61,11 +50,12 @@ body {
     font-size: 20px;
 }
 .lot-1 , .lot-2 , .lot-3 {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .lots-card {
     width: 1052px;
@@ -151,6 +141,7 @@ p {
 .lots {
     display: flex;
     flex-direction: row;
+    gap: 15px;
 }
 .text-LOTS {
     margin-top: 150px;
@@ -168,4 +159,32 @@ p {
 .ABOUT_p {
     display: flex;
     align-items: flex-end;
+}
+.hero-title {
+    color: white;
+    width: 1100px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    font-size: 100px;
+    font-weight: bold;
+    letter-spacing: 30px;
+}
+.ono {
+    margin-top: -275px;
+    margin-left: 75px;
+}
+.tebe {
+    margin-left: -70px;
+}
+.nado {
+    margin-left: -70px;
+    margin-top: 275px;
+}
+.hero-low-text {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
 }
