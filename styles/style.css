@@ -53,11 +53,8 @@ body {
     width: 1100px;
     height: 757px;
 }
-.cover-text {
-    color: white;
-    font-weight: normal;
-    word-spacing: 10px;
-    font-size: 25px;
+.cover-title {
+    padding-left: 50px;
 }
 .bet-button {
     margin: 0;
@@ -67,25 +64,75 @@ body {
     color: white;
     background-color: transparent;
     border: 1px solid white;
-    font-weight: bold;
-    font-size: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    text-transform: uppercase;
 }
-.span-ono , .span-tebe , .span-nado  {
-    color: white;
-    font-size: 100px;
-    font-weight: bold;
-    letter-spacing: 30px;
+.div-button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 125px;
 }
-.cover-title {
+.o {
+    margin-left: 30px;
 }
-.on {
-    text-align: left;
+.e {
+
 }
 .teb {
-    text-align: center;
+
 }
-.ado {
+.div-ono {
+    text-align: left;
+    padding-top: 165px;
+    display: flex;
+    justify-content: flex-start;
+}
+.div-nado {
     text-align: right;
+    margin-top: 2px;
+    gap: 30px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.div-tebe {
+    text-align: center;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-right: 75px;
+}
+.div-ono , .div-tebe , .div-nado  {
+    color: white;
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 30px;
+}
+.description-spans{
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+
+}
+.hero-low-text {
+    width: 647px;
+    display: flex;
+    align-items: flex-end;
+    margin-top: 115px;
+    padding-left: 78px;
+    padding-right: 78px;
+    gap: 25px;
+    margin-bottom: 10px;
+}
+.cover-all-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .lots-card {
     width: 1500px;
